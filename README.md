@@ -25,7 +25,9 @@ make
 
 ## How To Play
 To play click the link below then in the debug command input box type in "g" and click the "Run" button or enter. 
-After running the command click the "Load PRG from URL" button. Next enter the second link listed below and click the "OK" button. Enjoy the game!
+After running the command click the "Load PRG from URL" button. Next enter the second link listed below and click the "OK" button. 
+After loading the game.prg file type "list" and enter until you see "12345 SYS4109", after that type "run" in the vic-20 console and hit enter.
+Enjoy the game!
 - https://pages.cpsc.ucalgary.ca/~aycock/x/vic20.html
 
 ```sh

@@ -11,7 +11,8 @@ The following document outlines our project Makefile, tools, paratext, files, su
 - [**Contributions**](#contributions)
 
 ## How To Play
-1. To play click the link below then in the debug command input box type in "g" and click the "Run" button or enter. 
+1. To play click the link below 
+2. Then in the debug command input box type in "g" and click the "Run" button or enter. 
 https://pages.cpsc.ucalgary.ca/~aycock/x/vic20.html 
 2. After running the command click the "Load PRG from URL" button. 
 3. Next copy the link below and paste it into the input field and click the "OK" button.

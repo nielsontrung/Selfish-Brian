@@ -1,11 +1,26 @@
-# Final Project Submission cpsc 599.82 winter 2021 Group 3
-The following document outlines our project tools, paratext, files, subroutines, and contributions.
-- [**Makefile**](#makefile)
+# Selfish Brian
+Selfish Brian was a course project for cpsc 599.82 a special topics computer science class centered around retro game development. 
+Selfish Brian was completed collaboratively in the 2021 Winter semester.
+The following document outlines our project Makefile, tools, paratext, files, subroutines, and contributions.
+
 - [**How To Play**](#how-to-play)
+- [**Makefile**](#makefile)
 - [**Tools**](#tools)
 - [**Paratext**](#paratext)
 - [**Files and Subroutines**](#files-and-subroutines)
 - [**Contributions**](#contributions)
+
+## How To Play
+1. To play click the link below then in the debug command input box type in "g" and click the "Run" button or enter. 
+https://pages.cpsc.ucalgary.ca/~aycock/x/vic20.html 
+2. After running the command click the "Load PRG from URL" button. 
+3. Next copy the link below and paste it into the input field and click the "OK" button.
+```
+https://pages.cpsc.ucalgary.ca/~nielson.trung/599.82/final_back_up/game.prg
+```
+4. After loading the game.prg file type "list" in the vic-20 console and enter repeat this step until you see the "12345 SYS4109" returned in the console
+5. After you see the "12345 SYS4109" message type "run" in the vic-20 console and hit enter.
+6. Enjoy the game!
 
 ## Makefile
 To make the executable prg file configure the DEST and URL variables in Makefile to the desired path location. Then run following commands to compile or to remove the prg files.
@@ -21,17 +36,6 @@ make echo
 remove all prg files:
 ```sh
 make
-```
-
-## How To Play
-To play click the link below then in the debug command input box type in "g" and click the "Run" button or enter. 
-After running the command click the "Load PRG from URL" button. Next enter the second link listed below and click the "OK" button. 
-After loading the game.prg file type "list" and enter until you see "12345 SYS4109", after that type "run" in the vic-20 console and hit enter.
-Enjoy the game!
-- https://pages.cpsc.ucalgary.ca/~aycock/x/vic20.html
-
-```sh
-https://pages.cpsc.ucalgary.ca/~nielson.trung/599.82/final_back_up/game.prg
 ```
 
 ## Tools

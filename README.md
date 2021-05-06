@@ -204,7 +204,7 @@ The following are a list of all the subroutines in game.asm
 - print_character_set.asm
 - sound.asm
 - utilities.asm
-- https://replit.com/@nielsontrung/binary-image-to-hex-array-converter
+- tool: https://replit.com/@nielsontrung/binary-image-to-hex-array-converter
 - paratext: https://pages.cpsc.ucalgary.ca/~nielson.trung/599.82/paratext.png
 #### Ronan
 - Level creation

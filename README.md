@@ -11,17 +11,16 @@ The following document outlines our project Makefile, tools, paratext, files, su
 - [**Contributions**](#contributions)
 
 ## How To Play
-1. To play click the link below 
-2. Then in the debug command input box type in "g" and click the "Run" button or enter. 
-https://pages.cpsc.ucalgary.ca/~aycock/x/vic20.html 
-2. After running the command click the "Load PRG from URL" button. 
-3. Next copy the link below and paste it into the input field and click the "OK" button.
+1. To play click the following link: https://pages.cpsc.ucalgary.ca/~aycock/x/vic20.html
+2. Then in the debug command input type "g" and click the "Run" button or enter. If the vic-20 console turns white continue to the next step.
+3. Then click the "Load PRG from URL" button.
+4. Then copy the link below and paste it into the input field and click the "OK" button or press enter.
 ```
 https://pages.cpsc.ucalgary.ca/~nielson.trung/599.82/final_back_up/game.prg
 ```
-4. After loading the game.prg file type "list" in the vic-20 console and enter repeat this step until you see the "12345 SYS4109" returned in the console
-5. After you see the "12345 SYS4109" message type "run" in the vic-20 console and hit enter.
-6. Enjoy the game!
+5. After loading the game.prg file wait a few seconds and type "list" in the vic-20 console and enter. Repeat this step until you see "12345 SYS4109" in the console.
+6. After you see the "12345 SYS4109" message type "run" in the vic-20 console and press enter.
+7. Enjoy the game!
 
 ## Makefile
 To make the executable prg file configure the DEST and URL variables in Makefile to the desired path location. Then run following commands to compile or to remove the prg files.
